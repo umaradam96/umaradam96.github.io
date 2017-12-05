@@ -12,22 +12,31 @@
 <body>
 
   <header>
-    <h1>Home</h1>
+    <h1>South Luangwa National Park</h1>
   </header>
 
+   <video playsinline autoplay muted loop>
+    <source src="videos/bgvid.mp4" type="video/mp4">
+    </video>
+  
   <!-- Nav BAr-->
    <aside id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="#">About</a>
-  <a href="#">Services</a>
-  <a href="#">Clients</a>
-  <a href="#">Contact</a>
+  <a href="index.html">Home</a>
+  <a href="about.html">About Us</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="contact.html">Contact Us</a>
 </aside>
 
 <!-- Use any element to open the sidenav -->
 <span id="openMenu">open</span>
 
 <!--<span id="open">open</span>-->
+
+<!---Enter image-->
+  <section>
+    <img draggable="true" id="entry" src="images/pathway.jpg" alt="Entry" height="225" width="225" onclick="openNav()"></img>
+  </section>
 
 <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
 <div id="main">
@@ -36,21 +45,7 @@
   
   <main>
     <section>
-	 <!-- Trigger the Modal -->
-<img id="myImg" src="images/leopard.jpg" alt="Leopard" width="300" height="200">
-
-<!-- The Modal -->
-<div id="myModal" class="modal">
-
-  <!-- The Close Button -->
-  <span class="close">&times;</span>
-
-  <!-- Modal Content (The Image) -->
-  <img class="modal-content" id="img01">
-
-  <!-- Modal Caption (Image Text) -->
-  <div id="caption"></div>
-</div> 
+	
 	</section>
 	
 	
