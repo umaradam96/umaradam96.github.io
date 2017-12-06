@@ -8,7 +8,7 @@
 body {
 	margin: 0;
 	background: grey;
-	min-width: 400px;
+	min-width: 400px fixed;
 }
 
 h1 {
@@ -35,15 +35,15 @@ h2 {
 }
 
 footer{
-	text-align: center;
+	background: black;
+	padding: 0.5rem;
+	position: fixed;
 	bottom: 0;
 	left: 0;
 	right: 0;
-	position: absolute;
-	padding: 2rem;
-
-	opacity: 0.5;
+	opacity: 0.3;
 	color: white;
+	text-align: center;
 	}
 
 /****video background***/
@@ -53,16 +53,18 @@ video {
   left: 50%;
   min-width: 100%;
   min-height: 100%;
-  width: auto;
-  height: auto;
+ /* width: auto;
+  height: auto;*/
   z-index: -100;
   transform: translateX(-50%) translateY(-50%);
   background: url("../images/video1.mp4") no-repeat;
   background-size: cover;
   filter: grayscale(100%);
+
 }
+
 /****entry****/
-#entry{
+#openMenu{
   position:absolute;
   top:0;
   left:0;
@@ -71,12 +73,29 @@ video {
   margin:auto;
   border-radius: 50%;
   cursor: pointer;
-}
+   height:225px;
+   width:225px;
+  }
 
-#entry:hover{
+#openMenu:hover{
   animation: shake 0.5s;
   animation-iteration-count: infinite; 
 }
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
  /* The side navigation menu */
 .sidenav {
     height: 100%; /* 100% Full-height */
@@ -116,10 +135,10 @@ video {
 }
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-#main {
+/*#main {
     transition: margin-left .5s;
     padding: 20px;
-}
+}*/
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-width: 450px) {
@@ -346,4 +365,45 @@ h2 {
 
 p {
     font-size: 1.1em;
+}
+
+/**** accordian ****/
+/* Style the buttons that are used to open and close the accordion panel */
+button.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+	font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+button.accordion.active, button.accordion:hover {
+    background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+section.panel {
+    padding: 0 18px;
+    background-color: white;
+	max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+button.accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+button.accordion.active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
