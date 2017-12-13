@@ -1,3 +1,4 @@
+/*@media screen and(min-width: 1200px){*/
 body{
   font: 15px/1.5 Arial, Helvetica,sans-serif;
   padding:0;
@@ -10,6 +11,28 @@ body{
   width:80%;
   margin:auto;
   overflow:hidden;
+}
+
+ul{
+  margin:0;
+  padding:0;
+}
+
+.button_1{
+  height:38px;
+  background:#e8491d;
+  border:0;
+  padding-left: 20px;
+  padding-right:20px;
+  color:#ffffff;
+}
+
+.dark{
+  padding:15px;
+  background:#2a3a19;
+  color:#ffffff;
+  margin-top:10px;
+  margin-bottom:10px;
 }
 
 /* Header **/
@@ -57,15 +80,6 @@ header a:hover{
   font-weight:bold;
 }
 
-footer{
-  padding:20px;
-  margin-top:20px;
-  color:#ffffff;
-  background-color: #2a3a19;
-  text-align: center;
-}
-
-
 /* area1 */
 #area1{
   min-height:400px;
@@ -96,8 +110,9 @@ video {
   z-index: -100;
   transform: translateX(-50%) translateY(-50%);
   background-size: cover;
- /* filter: grayscale(100%);*/
+  /* filter: grayscale(100%);*/
 }
+
 
 /* Newsletter */
 #newsletter{
@@ -113,10 +128,20 @@ video {
 }
 
 #newsletter p{
-	margin-top:30px;
-	float: center;
-	text-align: center;
+  margin-top:30px;
+  float: center;
+  text-align: center;
 }
+/*#newsletter form {
+float:right;
+margin-top:15px;
+}
+
+#newsletter input[type="email"]{
+padding:4px;
+height:25px;
+width:250px;
+}*/
 
 /* Boxes */
 #boxes{
@@ -143,25 +168,201 @@ video {
 }
 
 @keyframes shake {
-    0% { transform: translate(1px, 1px) rotate(0deg); }
-    10% { transform: translate(-1px, -2px) rotate(-1deg); }
-    20% { transform: translate(-3px, 0px) rotate(1deg); }
-    30% { transform: translate(3px, 2px) rotate(0deg); }
-    40% { transform: translate(1px, -1px) rotate(1deg); }
-    50% { transform: translate(-1px, 2px) rotate(-1deg); }
-    60% { transform: translate(-3px, 1px) rotate(0deg); }
-    70% { transform: translate(3px, 1px) rotate(-1deg); }
-    80% { transform: translate(-1px, -1px) rotate(1deg); }
-    90% { transform: translate(1px, 2px) rotate(0deg); }
-    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
+
+/* Sidebar */
+aside#sidebar{
+  float:right;
+  width:30%;
+  margin-top:10px;
+}
+
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+  width:90%;
+  padding:5px;
+}
+
+/* Main-col */
+article#main-col{
+  float:left;
+  width:60%;
+}
+
+/* Services */
+ul#services li{
+  list-style: none;
+  padding:20px;
+  border: #cccccc solid 1px;
+  margin-bottom:5px;
+  background:#e6e6e6;
+}
+
+
+
+/*** MODAL SECTIONS FOR BOOKS ****/
+
+/* The Modal (background) */
+.modal, .modal1, .modal2, .modal3 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #d6d9dc;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+  text-align: center;
+}
+
+/*  Animation */
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/*  Close Button */
+.close, .close1, .close2, .close3 {
+  color: lightblue;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover, .close1:hover, .close2:hover, .close3:hover {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  margin-bottom:10px;
+  padding: 2px 10px;
+  background-color: #324150;
+  color: white;
+  text-align: center;
+}
+
+.modal-body {
+  padding: 2px 20px;
+  text-align: center;
+}
+
+.modal-footer {
+  margin-top: 10px;
+  padding: 2px 10px;
+  background-color: #324150;
+  color: white;
+  text-align: center;
+}
+
+/* accordian stylesheet*/
+
+button.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+button.accordion.active, button.accordion:hover {
+  background-color: #ccc;
+}
+
+section.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+button.accordion:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+button.accordion.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+footer{
+  padding:20px;
+  margin-top:20px;
+  color:#ffffff;
+  background-color: #2a3a19;
+  text-align: center;
+  bottom: 0px;
+  position: static;
+}
+
+/** scroll top **/
+#scrollTopBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: red; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+}
+
+#scrollTopBtn:hover {
+  background-color: green; /* Add a dark-grey background on hover */
+}
+
 
 /* Media Queries */
 @media(max-width: 800px){
   header #header-title,
   header nav,
-  header nav li
-  {
+  header nav li,
+  #newsletter h1,
+  #newsletter p,
+  #newsletter form,
+  #boxes .box,
+  article#main-col,
+  aside#sidebar{
     float:none;
     text-align:center;
     width:100%;
@@ -170,4 +371,18 @@ video {
   header{
     padding-bottom:20px;
   }
+
+  #area1 h1{
+    margin-top:40px;
+  }
+
+  /*  #newsletter button, .quote button{
+  display:block;
+  width:100%;
+}
+
+#newsletter form input[type="email"], .quote input, .quote textarea{
+width:100%;
+margin-bottom:5px;
+}
 }
