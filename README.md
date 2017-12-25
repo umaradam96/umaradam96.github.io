@@ -41,6 +41,10 @@ Responsive layout -
 Having created a single style sheet which contained all styles, without any of the styles affecting others. 
 I wasn’t used to using Git and Github and didn’t know the commands very well, however after using it a few times I had got the hang of it.
 
+# **JavaScript**
+
+Many features on the site are in use with JavaScript.
+
 # **Testing**
 
 Having let various people, both computer literate and not, browse and navigate around the website without any assistance from anybody with me over their shoulder supervising and inspecting what they are doing and what happens on the site when they looked through it. Having doing so helped in finding any faults and improvements, which would need to be made.
