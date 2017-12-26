@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
+  <link rel="shortcut icon" href="img/favicon.ico">
   <title>South Luangwa National Park | Welcome</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
   <header>
     <section class="container">
@@ -29,67 +32,69 @@
       <video playsinline autoplay muted loop>
         <source src="videos/bgvid.mp4" type="video/mp4">
         </video>
-        <h1>"Man is not the only animal that seeks freedom and space"</h1>
-        <p>Anthony Douglas Williams - inside the Divine Pattern</p>
+      <h1>"Man is not the only animal that seeks freedom and space"</h1>
+      <p>Anthony Douglas Williams - inside the Divine Pattern</p>
+    </section>
+  </section>
+
+  <section id="middleBox">
+    <section class="container">
+      <h1>Did you know:</h1>
+      <p>The female lion does ninety percent of the hunting</p>
+    </section>
+  </section>
+
+  <section id="boxes">
+    <section class="container">
+      <section class="box">
+        <img id="img1" src="./img/entrance.jpg" alt="entrance">
+        <h3>Safari</h3>
+        <p>Click the image</p>
+      </section>
+      <section class="box">
+        <img id="img2" src="./img/lion5.jpg" alt="lion">
+        <h3>Animals</h3>
+        <p>Click the image</p>
+      </section>
+      <section class="box">
+        <img id="img3" src="./img/bird.jpg" alt="bird">
+        <h3>Birds</h3>
+        <p>Click the image</p>
       </section>
     </section>
+  </section>
 
-    <section id="newsletter">
-      <section class="container">
-        <h1>Did you know:</h1>
-        <p>The female lion does ninety percent of the hunting</p>
-      </section>
-    </section>
+  <!-- These 3 sections are filled in through modal.js via JSON -->
+  <section id="myModal1" class="modal">
+  </section>
+  <section id="myModal2" class="modal">
+  </section>
+  <section id="myModal3" class="modal">
+  </section>
+  <button id="scrollTopBtn" title="Go to top">Top</button>
+  <footer>
 
-    <section id="boxes">
-      <section class="container">
-        <section class="box">
-          <img id="img1" src="./img/entrance.jpg" alt="entrance">
-          <h3>Safari</h3>
-          <p>Click the image</p>
-        </section>
-        <section class="box">
-          <img id="img2" src="./img/lion5.jpg" alt="lion">
-          <h3>Animals</h3>
-          <p>Click the image</p>
-        </section>
-        <section class="box">
-          <img id="img3" src="./img/bird.jpg" alt="bird">
-          <h3>Birds</h3>
-          <p>Click the image</p>
-        </section>
-      </section>
+    <p>Umar Adam, Copyright &copy; 2017</p>
+    <section><a target="_blank" href="https://en-gb.facebook.com/" class="fa fa-facebook"></a>
+      <a target="_blank" href="https://github.com/umaradam96" class="fa fa-github"></a>
+      <a target="_blank" href="https://twitter.com/?lang=en-gb" class="fa fa-twitter"></a>
+      <a target="_blank" href="https://plus.google.com/discover" class="fa fa-google-plus"></a>
+      <a target="_blank" href="https://uk.linkedin.com/" class="fa fa-linkedin"></a>
+      <a target="_blank" href="https://www.youtube.com/" class="fa fa-youtube"></a>
     </section>
-
-    <!-- These 3 sections are filled in through modal.js via JSON -->
-    <section id="myModal1" class="modal">
-    </section>
-    <section id="myModal2" class="modal">
-    </section>
-    <section id="myModal3" class="modal">
-    </section>
-
-    <footer>
-      <button id="scrollTopBtn" title="Go to top">Top</button>
-      <p>Umar Adam, Copyright &copy; 2017</p>
-      <section><a target="_blank" href="https://en-gb.facebook.com/" class="fa fa-facebook"></a>
-		  <a target="_blank" href="#" class="fa fa-github"></a>
-		  <a target="_blank" href="https://twitter.com/?lang=en-gb" class="fa fa-twitter"></a>
-		  <a target="_blank" href="https://plus.google.com/discover" class="fa fa-google-plus"></a>
-		  <a target="_blank" href="https://uk.linkedin.com/" class="fa fa-linkedin"></a>
-		  <a target="_blank" href="https://www.youtube.com/" class="fa fa-youtube"></a>
-	    </section>
-      <h3>Sitemap</h3>
-	  <section class="sitemapBox">
-	    <a class="sitemap" href="index.html">Home</a>
+    <h3>Sitemap</h3>
+    <section class="sitemapBox">
+      <a class="sitemap" href="index.html">Home</a>
       <a class="sitemap" href="about.html">About</a>
       <a class="sitemap" href="gallery.html">Gallery</a>
       <a class="sitemap" href="contact.html">Contact</a>
-	  </section>
-    </footer>
+    </section>
+  </footer>
 
-    <script src="js/modal.js"></script>
-    <script src="js/javascript.js"></script>
+  <script src="js/modal_json.js"></script>
+  <script src="js/topScroll.js"></script>
+  <script src="js/modal.js"></script>
 
-  </body>
-  </html>
+</body>
+
+</html>
