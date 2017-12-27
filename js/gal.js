@@ -42,58 +42,58 @@ let captionText7 = document.getElementById("caption7");
 let captionText8 = document.getElementById("caption8");
 let captionText9 = document.getElementById("caption9");
 
-img.addEventListener("click", function(){
-    modal.style.display = "block";
-    modalImg.src = this.src;
-    captionText.innerHTML = this.alt
+img.addEventListener("click", function() {
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt
 });
 
-img2.addEventListener("click", function(){
-    modal2.style.display = "block";
-    modalImg2.src = this.src;
-    captionText2.innerHTML = this.alt
+img2.addEventListener("click", function() {
+  modal2.style.display = "block";
+  modalImg2.src = this.src;
+  captionText2.innerHTML = this.alt
 });
 
-img3.addEventListener("click", function(){
-    modal3.style.display = "block";
-    modalImg3.src = this.src;
-    captionText3.innerHTML = this.alt
+img3.addEventListener("click", function() {
+  modal3.style.display = "block";
+  modalImg3.src = this.src;
+  captionText3.innerHTML = this.alt
 });
 
-img4.addEventListener("click", function(){
-    modal4.style.display = "block";
-    modalImg4.src = this.src;
-    captionText4.innerHTML = this.alt
+img4.addEventListener("click", function() {
+  modal4.style.display = "block";
+  modalImg4.src = this.src;
+  captionText4.innerHTML = this.alt
 });
 
-img5.addEventListener("click", function(){
-    modal5.style.display = "block";
-    modalImg5.src = this.src;
-    captionText5.innerHTML = this.alt
+img5.addEventListener("click", function() {
+  modal5.style.display = "block";
+  modalImg5.src = this.src;
+  captionText5.innerHTML = this.alt
 });
 
-img6.addEventListener("click", function(){
-    modal6.style.display = "block";
-    modalImg6.src = this.src;
-    captionText6.innerHTML = this.alt
+img6.addEventListener("click", function() {
+  modal6.style.display = "block";
+  modalImg6.src = this.src;
+  captionText6.innerHTML = this.alt
 });
 
-img7.addEventListener("click", function(){
-    modal7.style.display = "block";
-    modalImg7.src = this.src;
-    captionText7.innerHTML = this.alt
+img7.addEventListener("click", function() {
+  modal7.style.display = "block";
+  modalImg7.src = this.src;
+  captionText7.innerHTML = this.alt
 });
 
-img8.addEventListener("click", function(){
-    modal8.style.display = "block";
-    modalImg8.src = this.src;
-    captionText8.innerHTML = this.alt
+img8.addEventListener("click", function() {
+  modal8.style.display = "block";
+  modalImg8.src = this.src;
+  captionText8.innerHTML = this.alt
 });
 
-img9.addEventListener("click", function(){
-    modal9.style.display = "block";
-    modalImg9.src = this.src;
-    captionText9.innerHTML = this.alt
+img9.addEventListener("click", function() {
+  modal9.style.display = "block";
+  modalImg9.src = this.src;
+  captionText9.innerHTML = this.alt
 });
 
 // Get the <span> element that closes the modal
