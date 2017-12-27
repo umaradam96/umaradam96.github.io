@@ -1,63 +1,104 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>South Luangwa National Park | About</title>
-    <link rel="stylesheet" href="./css/style.css">
 
-  </head>
-  <body>
-    <header>
-      <section class="container">
-        <section id="header-title">
-          <h1><span class="highlight">South Luangwa</span> National Park</h1>
-        </section>
-        <nav>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li class="current"><a href="about.html">About</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-			<li><a href="contact.html">Contact</a></li>
-          </ul>
-        </nav>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <title>South Luangwa National Park | About</title>
+  <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+  <header>
+    <section class="container">
+      <section id="header-title">
+        <h1><span class="highlight">South Luangwa</span> National Park</h1>
       </section>
-    </header>
-    <section id="middleBox">
-          <section class="container">
-            <h1>Did you know</h1>
-          </section>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li class="current"><a href="about.html">About</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </section>
+  </header>
+
+  <section id="middleBox">
+    <section class="container">
+      <h1>Did you know</h1>
+      <p>The cheetah is the the fastest land animal in the world! they can reach a top speed of around 113km per hour. They can accelerate to that speed in just a few seconds!</p>
+    </section>
+  </section>
+
+  <section id="main">
+    <section class="container">
+      <article id="main-col">
+        <h1 class="page-title">About Us</h1>
+        <button class="accordion">About</button>
+        <section class="panel">
+          <p>South Luangwa National Park is the highlight of eastern Zambia. Known to locals as simply 'the South Park,' it was initially founded as the Luangwa Game Park in 1904, and converted to one of three game reserves in 1938. The impressive park covers
+            an area of about 9050 square kilometers of the Luangwa Valley floor, and lies anywhere from 500 meter to 800 meter above sea level. With its western and northwestern edge bounded by the Muchinga Escarpment, and the southern border lined with
+            the meandering Luangwa River, there's no shortage of dramatic and fascinating topography in this stunning game-rich park.</p>
         </section>
 
-        <section id="main">
-          <section class="container">
-            <article id="main-col">
-              <h1 class="page-title">About Us</h1>
-              <button class="accordion">About</button>
-    <section class="panel">
-      <p>South Luangwa National Park is the highlight of eastern Zambia. Known to locals as simply 'the South Park,' it was initially founded as the Luangwa Game Park in 1904, and converted to one of three game reserves in 1938. The impressive park covers an area of about 9050 square kilometers of the Luangwa Valley floor, and lies anywhere from 500 meter to 800 meter above sea level. With its western and northwestern edge bounded by the Muchinga Escarpment, and the southern border lined with the meandering Luangwa River, there's no shortage of dramatic and fascinating topography in this stunning game-rich park.</p>
-    </section>
+        <button class="accordion">Visit Information</button>
+        <section class="panel">
+          <p>Seasonal changes are very pronounced in Luangwa. The dry season begins in April and intensifies through to October, the hottest month, when game concentrations are at their height. Warm sunny days and chilly nights typify the dry winter months
+            of May to August.</p>
+          <p>The wet season begins in November as the leaves turn green, and the dry bleak terrain becomes a lush jungle. The rainy season lasts up until the end of March and the migrant birds arrive in droves. Each lodge stays open for as long as access
+            is possible, depending on its location in the area.</p>
+          <p>There are several lodges that remain open all year in the central area of the park.</p>
+        </section>
 
-    <button class="accordion">Visit Information</button>
-    <section class="panel">
-      <p>Seasonal changes are very pronounced in Luangwa. The dry season begins in April and intensifies through to October, the hottest month, when game concentrations are at their height. Warm sunny days and chilly nights typify the dry winter months of May to August.</p>
-      <p>The wet season begins in November as the leaves turn green, and the dry bleak terrain becomes a lush jungle. The rainy season lasts up until the end of March and the migrant birds arrive in droves. Each lodge stays open for as long as access is possible, depending on its location in the area.</p>
-      <p>There are several lodges that remain open all year in the central area of the park.</p>
-      </section>
-
-    <button class="accordion">Location</button>
-    <section class="panel">
-    <section><section id="map"></section>
-  <p>South Luangwa NAtional Park in eastern Zambia, the southernmost of three national parks in the valley of the Luangwa River, is a world-renowned wildlife haven. It supports large populations of Thornicroft's Giraffe, and herds of elephant and buffalo often several hundred strong, while the Luangwa River supports abundant crocodiles and hippopotamuses. It is one of the best-known national parks in Africa for walking safaris.</p>
-    </section>
+        <button class="accordion">Location</button>
+        <section class="panel">
+          <section id="map"></section>
+          <p>South Luangwa National Park in eastern Zambia, the southernmost of three national parks in the valley of the Luangwa River, is a world-renowned wildlife haven. It supports large populations of Thornicroft's Giraffe, and herds of elephant and
+            buffalo often several hundred strong, while the Luangwa River supports abundant crocodiles and hippopotamuses. It is one of the best-known national parks in Africa for walking safaris.</p>
+        </section>
       </article>
-    </section>
-    </section>
+      <section>
+        <section>
+          <aside id="sidebar">
+            <section class="dark">
+              <h3>Wiki Search</h3>
+              <!--Wikipedia API allows users to search for games which are displayed in the space below-->
+              <form id="searchForm">
+                <h2 id="formText">Looking for a particular Animal? Search here</h2>
+                <label for="wikiQuery">Search Wikipedia for:</label>
+                <input id="wikiQuery" type="text" placeholder="Animals">
+                <input id="wikiSubmit" type="submit" value="Submit">
+                <input id="wikiReset" type="reset" value="Reset">
+              </form>
 
-    <footer>
-      <button id="scrollTopBtn" title="Go to top">Top</button>
-      <p>Umar Adam, Copyright &copy; 2017</p>
-    </footer>
-	<script src="js/javascript.js"></script>
-  </body>
+              <h2 id="wikiResults">Wikipedia Search Results:</h2>
+              <!--Search results displayed here-->
+              <ul id="demo"></ul>
+              <button id="reloadPage">Reload</button>
+              <!--This script file contains Wikipedia API-->
+            </section>
+          </aside>
+        </section>
+      </section>
+    </section>
+  </section>
+  <footer>
+    <button id="scrollTopBtn" title="Go to top">Top</button>
+    <p>Umar Adam, Copyright &copy; 2017</p>
+  </footer>
+  <script src="js/wiki.js"></script>
+  <script src="js/accordian.js"></script>
+  <script src="js/map.js"></script>
+  <script src="js/reload.js"></script>
+  <script src="js/topScroll.js"></script>
+
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBrwP22VNQ8JLJI6ITdGe9BpiHetGHI8j8&callback=initMap">
+  </script>
+
+</body>
+
 </html>
