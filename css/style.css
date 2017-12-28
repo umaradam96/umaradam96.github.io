@@ -1,174 +1,202 @@
 /* MOBILE */
 
-body{
-  font: 15px/1.5 Arial, Helvetica,sans-serif;
-  padding:0;
-  margin:0;
-  background-color:#ffbf80;
+body {
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #ffbf80;
 }
 
-.container{
-  width:80%;
-  margin:auto;
-  overflow:hidden;
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
 }
 
-ul{
-  margin:0;
-  padding:0;
+ul {
+  margin: 0;
+  padding: 0;
 }
 
-.dark{
-  padding:15px;
-  background:#b35900;
-  color:#ffffff;
-  margin-top:10px;
-  margin-bottom:10px;
+.dark {
+  padding: 15px;
+  background: #b35900;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 /* Header */
-header{
-  padding-bottom:20px;
-  background:#b35900;
-  color:#ffffff;
-  min-height:70px;
+
+header {
+  padding-bottom: 20px;
+  background: #b35900;
+  color: #ffffff;
+  min-height: 70px;
   border-bottom: #d35400 3px solid;
 }
 
-header a{
-  color:white;
-  text-decoration:none;
+header a {
+  color: white;
+  text-decoration: none;
   text-transform: uppercase;
-  font-size:16px;
+  font-size: 16px;
 }
 
-header li{
-  float:none;
-  text-align:center;
+header li {
+  float: none;
+  text-align: center;
   list-style-type: none;
 }
 
-header #header-title{
-  text-align:center;
+header #header-title {
+  text-align: center;
 }
 
-header #header-title h1{
-  margin:0;
+header #header-title h1 {
+  margin: 0;
 }
 
-header nav{
-  float:none;
-  text-align:center;
+header nav {
+  float: none;
+  text-align: center;
 }
 
-header .highlight, header .current a{
-  color:#663300;
-  font-weight:bold;
+header .highlight, header .current a {
+  color: #663300;
+  font-weight: bold;
 }
 
-header a:hover{
+header a:hover {
   color: #d35400;
 }
 
-video{
+video {
   display: none;
 }
 
 /* area1 */
-#area1{
-  min-height:400px;
-  text-align:center;
-  color:#ffffff;
+
+#area1 {
+  min-height: 400px;
+  text-align: center;
+  color: #ffffff;
 }
 
-#area1 h1{
-  margin-top:40px;
-  margin-top:100px;
-  font-size:25px;
-  margin-bottom:10px;
+#area1 h1 {
+  margin-top: 40px;
+  margin-top: 100px;
+  font-size: 25px;
+  margin-bottom: 10px;
 }
 
-#area1 p{
-  font-size:10px;
+#area1 p {
+  font-size: 10px;
 }
 
 /* middleBox */
-#middleBox{
-  padding:15px;
-  color:#ffffff;
-  background:#b35900;
+
+#middleBox {
+  padding: 15px;
+  color: #ffffff;
+  background: #b35900;
 }
 
-#middleBox h1{
-  float:none;
-  text-align:center;
-  width:100%;
+#middleBox h1 {
+  float: none;
+  text-align: center;
+  width: 100%;
 }
 
-#middleBox p{
-  float:none;
-  text-align:center;
-  width:100%;
+#middleBox p {
+  float: none;
+  text-align: center;
+  width: 100%;
 }
 
 /* Boxes */
-#boxes{
-  margin-top:20px;
+
+#boxes {
+  margin-top: 20px;
 }
 
-#boxes .box{
-  float:none;
-  text-align:center;
-  width:100%;
-  padding:10px;
+#boxes .box {
+  float: none;
+  text-align: center;
+  width: 100%;
+  padding: 10px;
   color: white;
 }
 
-#boxes .box img{
+#boxes .box img {
   width: 200px;
   border-radius: 50%;
   cursor: pointer;
 }
 
-#boxes .box img:hover{
+#boxes .box img:hover {
   animation: shake 0.5s;
   animation-iteration-count: infinite;
 }
 
 @keyframes shake {
-  0% { transform: translate(1px, 1px) rotate(0deg); }
-  10% { transform: translate(-1px, -2px) rotate(-1deg); }
-  20% { transform: translate(-3px, 0px) rotate(1deg); }
-  30% { transform: translate(3px, 2px) rotate(0deg); }
-  40% { transform: translate(1px, -1px) rotate(1deg); }
-  50% { transform: translate(-1px, 2px) rotate(-1deg); }
-  60% { transform: translate(-3px, 1px) rotate(0deg); }
-  70% { transform: translate(3px, 1px) rotate(-1deg); }
-  80% { transform: translate(-1px, -1px) rotate(1deg); }
-  90% { transform: translate(1px, 2px) rotate(0deg); }
-  100% { transform: translate(1px, -2px) rotate(-1deg); }
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
 }
 
 /* Sidebar */
-aside#sidebar{
-  float:right;
-  width:100%;
-  margin-top:10px;
+
+aside#sidebar {
+  float: right;
+  width: 100%;
+  margin-top: 10px;
 }
 
-aside#sidebar .quote input, aside#sidebar .quote textarea{
-  width:90%;
-  padding:5px;
+aside#sidebar .quote input, aside#sidebar .quote textarea {
+  width: 90%;
+  padding: 5px;
 }
 
 /* Main-col for about us page where accordian is placed in*/
-#main-col{
-  float:none;
-  text-align:center;
-  width:100%;
+
+#main-col {
+  float: none;
+  text-align: center;
+  width: 100%;
 }
 
-#map{
+#map {
   width: 100%;
   height: 400px;
   background-color: grey;
@@ -176,19 +204,14 @@ aside#sidebar .quote input, aside#sidebar .quote textarea{
 
 /* CONTACT FORM */
 
-#contact input[type="text"],
-#contact input[type="email"],
-#contact input[type="tel"],
-#contact input[type="url"],
-#contact textarea,
-#contact button[type="submit"] {
-  font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif;
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] {
+  font: 400 12px/16px "Open Sans", Helvetica, Arial, sans-serif;
 }
 
 #contact {
-  background:#b35900;
-  padding:50px;
-  margin:50px 0;
+  background: #b35900;
+  padding: 50px;
+  margin: 50px 0;
 }
 
 #contact h1 {
@@ -199,9 +222,9 @@ aside#sidebar .quote input, aside#sidebar .quote textarea{
 }
 
 #contact h2 {
-  margin:5px 0 15px;
-  display:block;
-  font-size:13px;
+  margin: 5px 0 15px;
+  display: block;
+  font-size: 13px;
   color: white;
 }
 
@@ -214,52 +237,52 @@ fieldset {
 }
 
 #contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
-  width:100%;
-  border:1px solid #CCC;
-  background:#FFF;
-  margin:0 0 5px;
-  padding:10px;
+  width: 100%;
+  border: 1px solid #CCC;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
 }
 
 #contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
-  transition:border-color 0.3s ease-in-out;
-  border:1px solid #AAA;
+  transition: border-color 0.3s ease-in-out;
+  border: 1px solid #AAA;
 }
 
 #contact textarea {
-  height:100px;
-  max-width:100%;
-  resize:none;
+  height: 100px;
+  max-width: 100%;
+  resize: none;
 }
 
 #contact button[type="submit"] {
-  cursor:pointer;
-  width:100%;
-  border:none;
-  background:#663300;
-  color:white;
-  margin:0 0 5px;
-  padding:10px;
-  font-size:15px;
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: #663300;
+  color: white;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
 }
 
 #contact button[type="submit"]:hover {
   background: #994d00;
-  transition:background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
 }
 
 #contact button[type="submit"]:active {
-  box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
 }
 
 #contact input:focus, #contact textarea:focus {
-  outline:0;
-  border:1px solid #999;
+  outline: 0;
+  border: 1px solid #999;
 }
 
 /** WIKIPEDIA SEARCH **/
 
-#searchForm{
+#searchForm {
   background-color: #e67300;
   border-radius: 5px;
   padding: 3% 5%;
@@ -268,50 +291,60 @@ fieldset {
   text-align: center;
 }
 
-#searchForm h2,h3{
+#searchForm h2, h3 {
   text-align: center;
 }
 
-#wikiResults{
+#wikiResults {
   text-align: center;
 }
 
-#wikiQuery{
-  width:80%;
+#wikiQuery {
+  width: 80%;
 }
 
-#formText{
-  font-size:15px;
+#formText {
+  font-size: 15px;
   text-align: center;
 }
 
-#wikiSubmit,
-#wikiReset{
+#wikiSubmit, #wikiReset {
   width: 40%;
 }
 
-#reloadPage{
+#reloadPage {
   width: 100%;
 }
 
 /*** MODAL SECTIONS ****/
 
 /* The Modal (background) */
+
 .modal, .modal1, .modal2, .modal3 {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
   left: 0;
   top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
 }
 
 /* Modal Content */
+
 .modal-content {
   position: relative;
   background-color: #d6d9dc;
@@ -319,19 +352,27 @@ fieldset {
   padding: 0;
   border: 1px solid #888;
   width: 80%;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   animation-name: animatetop;
   animation-duration: 0.4s;
   text-align: center;
 }
 
 /*  Animation */
+
 @keyframes animatetop {
-  from {top:-300px; opacity:0}
-  to {top:0; opacity:1}
+  from {
+    top: -300px;
+    opacity: 0
+  }
+  to {
+    top: 0;
+    opacity: 1
+  }
 }
 
 /*  Close Button */
+
 .close, .close1, .close2, .close3 {
   color: lightblue;
   float: right;
@@ -346,7 +387,7 @@ fieldset {
 }
 
 .modal-header {
-  margin-bottom:10px;
+  margin-bottom: 10px;
   padding: 2px 10px;
   background-color: #324150;
   color: white;
@@ -356,7 +397,7 @@ fieldset {
 .modal-body {
   padding: 2px 20px;
   text-align: center;
-	}
+}
 
 .modal-footer {
   margin-top: 10px;
@@ -381,15 +422,15 @@ fieldset {
   opacity: 0.7;
 }
 
-.galleryBox{
+.galleryBox {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.page-title{
-	text-align: center;
-	font-size: 25px;
+.page-title {
+  text-align: center;
+  font-size: 25px;
 }
 
 #myImg:hover {
@@ -399,18 +440,26 @@ fieldset {
 /* The Modal (background) */
 
 .modalGal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
   left: 0;
   top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
-
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.9);
+  /* Black w/ opacity */
 }
 
 /* Modal Content (Image) */
@@ -444,8 +493,12 @@ fieldset {
 }
 
 @keyframes zoom {
-  from {transform:scale(0)}
-  to {transform:scale(1)}
+  from {
+    transform: scale(0)
+  }
+  to {
+    transform: scale(1)
+  }
 }
 
 /* The Close Button */
@@ -460,8 +513,7 @@ fieldset {
   transition: 0.3s;
 }
 
-.closeGal:hover,
-.closeGal:focus {
+.closeGal:hover, .closeGal:focus {
   color: #bbb;
   text-decoration: none;
   cursor: pointer;
@@ -482,8 +534,7 @@ button.accordion {
   transition: 0.4s;
 }
 
-button.accordion.active,
-button.accordion:hover {
+button.accordion.active, button.accordion:hover {
   background-color: #ccc;
 }
 
@@ -496,7 +547,8 @@ section.panel {
 }
 
 button.accordion:after {
-  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  content: '\02795';
+  /* Unicode character for "plus" sign (+) */
   font-size: 13px;
   color: #777;
   float: right;
@@ -504,7 +556,8 @@ button.accordion:after {
 }
 
 button.accordion.active:after {
-  content: "\2796"; /* Unicode character for "minus" sign (-) */
+  content: "\2796";
+  /* Unicode character for "minus" sign (-) */
 }
 
 /** SOCIALS **/
@@ -522,7 +575,6 @@ button.accordion.active:after {
 
 .fa:hover {
   transform: rotate(720deg);
-
 }
 
 .fa-facebook {
@@ -555,21 +607,20 @@ button.accordion.active:after {
   color: white;
 }
 
-
-.sitemap{
-	color: white;
-	text-decoration: none;
+.sitemap {
+  color: white;
+  text-decoration: none;
 }
 
-.sitemap:hover{
-	color: #d35400;
+.sitemap:hover {
+  color: #d35400;
 }
 
-footer{
-  padding:20px;
-  margin-top:20px;
-  color:#ffffff;
-  background:#b35900;
+footer {
+  padding: 20px;
+  margin-top: 20px;
+  color: #ffffff;
+  background: #b35900;
   text-align: center;
   bottom: 0px;
   position: static;
@@ -578,18 +629,28 @@ footer{
 /** scroll top **/
 
 #scrollTopBtn {
-  display: none; /* Hidden by default */
-  position: fixed; /* Fixed/sticky position */
-  bottom: 20px; /* Place the button at the bottom of the page */
-  right: 30px; /* Place the button 30px from the right */
-  z-index: 99; /* Make sure it does not overlap */
-  border: none; /* Remove borders */
-  outline: none; /* Remove outline */
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Fixed/sticky position */
+  bottom: 20px;
+  /* Place the button at the bottom of the page */
+  right: 30px;
+  /* Place the button 30px from the right */
+  z-index: 99;
+  /* Make sure it does not overlap */
+  border: none;
+  /* Remove borders */
+  outline: none;
+  /* Remove outline */
   background-color: red;
-  color: white; /* Text color */
-  cursor: pointer; /* Add a mouse pointer on hover */
+  color: white;
+  /* Text color */
+  cursor: pointer;
+  /* Add a mouse pointer on hover */
   padding: 15px;
-  border-radius: 10px; /* Rounded corners */
+  border-radius: 10px;
+  /* Rounded corners */
 }
 
 #scrollTopBtn:hover {
@@ -599,203 +660,160 @@ footer{
 /* Media Queries */
 
 /* Tablet */
-@media only screen and (min-width: 480px){
 
-body{
-  background-color:#b3e0ff;
-}
-
-.dark{
-  background:#004d80;
-}
-
-header{
-  background:#004d80;
-  padding-top:30px;
-}
-
-
-header .highlight, header .current a{
-  color: #007acc;
-}
-
-header nav{
-  float:initial;
-  margin-top:10px;
-}
-
-header nav li{
-  display:inline;
-  padding: 0 10px 0 10px;
-}
-
-#area1 h1{
-  font-size:40px;
-}
-
-#area1 p{
-  font-size:15px;
-}
-
-/** background video*/
-video {
-  display: inline;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: -100;
-  transform: translateX(-50%) translateY(-50%);
-  background-size: cover;
-  filter: grayscale(100%);
-}
-
-#middleBox{
-  background:#004d80;
-}
-
-#middleBox h1{
-  margin-top: 30px;
-  font-size: 20px;
-}
-
-#middleBox p{
-  margin-top:30px;
-}
-
-#main-col{
-  float:left;
-  width:100%;
-}
-
-#contact {
-  background:#004d80;
-}
-
-#contact button[type="submit"] {
-  background: #4db8ff;
-}
-
-#contact button[type="submit"]:hover {
-  background: #b3e0ff;
-}
-
-#searchForm{
-  background-color: #007acc;
-}
-
-button.accordian{
-	width:100%
-}
-
-.galImg {
-  width: 45%;
-}
-
-#scrollTopBtn:hover {
-  background-color: #4db8ff;
-}
-
-footer{
-  background:#004d80;
-}
+@media only screen and (min-width: 480px) {
+  body {
+    background-color: #b3e0ff;
+  }
+  .dark {
+    background: #004d80;
+  }
+  header {
+    background: #004d80;
+    padding-top: 30px;
+  }
+  header .highlight, header .current a {
+    color: #007acc;
+  }
+  header nav {
+    float: initial;
+    margin-top: 10px;
+  }
+  header nav li {
+    display: inline;
+    padding: 0 10px 0 10px;
+  }
+  #area1 h1 {
+    font-size: 40px;
+  }
+  #area1 p {
+    font-size: 15px;
+  }
+  /** background video*/
+  video {
+    display: inline;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+    filter: grayscale(100%);
+  }
+  #middleBox {
+    background: #004d80;
+  }
+  #middleBox h1 {
+    margin-top: 30px;
+    font-size: 20px;
+  }
+  #middleBox p {
+    margin-top: 30px;
+  }
+  #main-col {
+    float: left;
+    width: 100%;
+  }
+  #contact {
+    background: #004d80;
+  }
+  #contact button[type="submit"] {
+    background: #4db8ff;
+  }
+  #contact button[type="submit"]:hover {
+    background: #b3e0ff;
+  }
+  #searchForm {
+    background-color: #007acc;
+  }
+  button.accordian {
+    width: 100%
+  }
+  .galImg {
+    width: 45%;
+  }
+  #scrollTopBtn:hover {
+    background-color: #4db8ff;
+  }
+  footer {
+    background: #004d80;
+  }
 }
 
 /* DESKTOP */
 
-@media only screen and (min-width: 768px){
-
-body{
-  background-color:#739b2e;
-}
-
-.dark{
-  background:#2a3a19;
-}
-
-header{
-  background:#2a3a19;
-}
-
-header .highlight, header .current a{
-  color: green;
-}
-
-header #header-title{
-  float:left;
-  background:#2a3a19;
-}
-
-header nav{
-  float: right;
-  margin-top:10px;
-}
-
-#area1 h1{
-  font-size:55px;
-}
-
-#area1 p{
-  font-size:20px;
-}
-
-#middleBox{
-  background:#2a3a19;
-}
-
-#contact {
-  background:#2a3a19;
-}
-
-#contact button[type="submit"] {
-  background: #6eb700;
-}
-
-#contact button[type="submit"]:hover {
-  background: #99e825;
-}
-
-
-#main-col{
-  float:left;
-  width:60%;
-}
-
-#boxes .box{
-  float:left;
-  width: 30%;
-}
-
-video {
-  filter: none;
-}
-
-aside#sidebar{
-  text-align:center;
-  width:30%;
-}
-
-#searchForm{
-  background-color: darkgreen;
-}
-
-.galImg {
-  width: 30%;
-}
-
-#scrollTopBtn:hover {
-  background-color: green;
-}
-
-.sitemapBox{
-	display: inline;
-	width: 20%;
-}
-
-footer{
-  background:#2a3a19;
-}
+@media only screen and (min-width: 768px) {
+  body {
+    background-color: #739b2e;
+  }
+  .dark {
+    background: #2a3a19;
+  }
+  header {
+    background: #2a3a19;
+  }
+  header .highlight, header .current a {
+    color: green;
+  }
+  header #header-title {
+    float: left;
+    background: #2a3a19;
+  }
+  header nav {
+    float: right;
+    margin-top: 10px;
+  }
+  #area1 h1 {
+    font-size: 55px;
+  }
+  #area1 p {
+    font-size: 20px;
+  }
+  #middleBox {
+    background: #2a3a19;
+  }
+  #contact {
+    background: #2a3a19;
+  }
+  #contact button[type="submit"] {
+    background: #6eb700;
+  }
+  #contact button[type="submit"]:hover {
+    background: #99e825;
+  }
+  #main-col {
+    float: left;
+    width: 60%;
+  }
+  #boxes .box {
+    float: left;
+    width: 30%;
+  }
+  video {
+    filter: none;
+  }
+  aside#sidebar {
+    text-align: center;
+    width: 30%;
+  }
+  #searchForm {
+    background-color: darkgreen;
+  }
+  .galImg {
+    width: 30%;
+  }
+  #scrollTopBtn:hover {
+    background-color: green;
+  }
+  .sitemapBox {
+    display: inline;
+    width: 20%;
+  }
+  footer {
+    background: #2a3a19;
+  }
 }
