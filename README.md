@@ -20,7 +20,7 @@ All pages have very similar layouts, with slight differences. The elements of ea
 All pages are similar with slight difference. The main aspects are repeated on each page such as the header and footer. Having these things repeated throughout the website allows the user to have knowledge of the whereabouts of the items of the website. This helps the user as they do not need to keep looking for where things are such as the navigation bar, which is a key aspect of the website
 
 ## **Contrast**
-The website has green broken with a whitish background.
+The website has three different themes to it depending on the screen size. For each theme, various different shades of the colour chosen is used for example for the desktop version, the colour 'green' is the main theme colour and so different shades of green was used throughout. For the tablet version, the colour 'blue' was used along with various different shades of blue. Finally for the mobile version, the colour 'brown' was used along with various shades of brown.
 
 # **Development process**
 
@@ -39,11 +39,18 @@ Responsive layout -
 # **Obstacles**
 
 Having created a single style sheet which contained all styles, without any of the styles affecting others. 
-I wasn’t used to using Git and Github and didn’t know the commands very well, however after using it a few times I had got the hang of it.
+I wasn’t used to using Git and Github and didn’t know the commands very well, however after using it a few times I had got the hang of it. 
 
 # **JavaScript**
 
-Many features on the site are in use with JavaScript.
+Many features on the site are in use with JavaScript. The following javascript files were used:
+-[accordian.js](js/accordian.js)
+-[gal.js](js/gal.js)
+-[map.js](js/map.js)
+-[modal.js](js/modal.js)
+-[reload.js](js/reload.js)
+-[wiki.js](js/wiki.js)
+-[topScroll.js](js/topScroll.js)
 
 # **Testing**
 
@@ -51,13 +58,12 @@ Having let various people, both computer literate and not, browse and navigate a
 
 |Test Case|	Pass/Fail|	Details|
 |---------|---------|---------|
-|Accordion|	Pass|	|
-|Modal pop up (gallery)|	Pass|	|
-|Modal pop up (index)|	Pass|	|
-|Top scroll button| 	Pass|	|
-|Navigation|	Pass|	Each button has a link that redirects the user to the correct location. A site map is also available on each page in the footer.|
-|Wikipedia search|	Pass|	User may use this search bar to find out extra information through Wikipedia.|
-		
+|Accordion|	Pass|This has three sections containing different information and should open when clicked on and should close when clicked again. only the section clicked on should open and not the others unless clicked otherwise.	|
+|Modal pop up (gallery)|	Pass|Each image should appear larger in a modal when clicked and should close when the 'x' is clicked.	|
+|Modal pop up (index)|	Pass|the modal should open with information when the image is clicked and should close when the 'x' is clicked	|
+|Top scroll button| 	Pass|the button should appear once the user has scrolled down by 20 pixels. The page should go back to the top when the top button is clicked from however far down the user is on the page.	|
+|Navigation|	Pass|	Each button has a link that redirects the user to the correct location. A site map is also available on each page in the footer. Each link should be connected to the correct page|
+|Wikipedia search|	Pass|	Information should appear when user searches in the search bar.|		
 
 # **References**
 
