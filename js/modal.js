@@ -3,17 +3,17 @@ let modalJSON = `
 	{
 		"title": "Safari",
 		"fact": "The Luangwa River is the most intact major river system in Africa and is the life-blood of this 9059 km2 Park",
-		"footer": "Visit the Gallery page"
+		"footer": "South Luangwa National Park"
 	},
 	{
 		"title": "Animals",
 		"fact": "The guides will ensure you have every opportunity to see all that the valley has to offer of its wildlife, birds and varying vegetation and habitats.",
-		"footer": "Visit the Gallery page"
+		"footer": "South Luangwa National Park"
 	},
 	{
 		"title": "Birds",
 		"fact": "The ever-present sounds of the birds in the Valley takes some getting used to.",
-		"footer": "Visit the Gallery page"
+		"footer": "South Luangwa National Park"
 	}
 ]`;
 
