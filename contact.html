@@ -1,31 +1,72 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>South Luangwa National Park | Contact</title>
-    <link rel="stylesheet" href="./css/style.css">
-  </head>
-  <body>
-    <header>
-      <section class="container">
-        <section id="header-title">
-          <h1><span class="highlight">South Luangwa</span> National Park</h1>
-        </section>
-        <nav>
-          <ul>
-            <li class="current"><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-			<li><a href="contact.html">Contact</a></li>
-          </ul>
-        </nav>
-      </section>
-    </header>
 
-    <footer>
-      <button id="scrollTopBtn" title="Go to top">Top</button>
-      <p>Umar Adam, Copyright &copy; 2017</p>
-    </footer>
- </body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <title>South Luangwa National Park | Contact Us</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <header>
+    <section class="container">
+      <section id="header-title">
+        <h1><span class="highlight">South Luangwa</span> National Park</h1>
+      </section>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li class="current"><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </section>
+  </header>
+
+  <section id="middleBox">
+    <section class="container">
+      <h1>Did you know</h1>
+      <p>Lions sleep approximately 20 hours a day</p>
+    </section>
+  </section>
+  <section class="container">
+    <div>
+      <form id="contact" method="post">
+        <h1>Contact Us</h1>
+
+        <h2>Enter the Fields below</h2>
+
+        <fieldset>
+          <div><input placeholder="Full Name..." type="text" tabindex="1" required autofocus></div>
+
+        </fieldset>
+        <fieldset>
+          <div><input placeholder="Email Address..." type="email" tabindex="2" required></div>
+
+        </fieldset>
+        <fieldset>
+          <div><input placeholder="Mobile..." type="tel" tabindex="3" required></div>
+        </fieldset>
+        <fieldset>
+          <div><textarea placeholder="Type your Message Here...." tabindex="5" required></textarea></div>
+        </fieldset>
+        <fieldset>
+          <div><button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button></div>
+        </fieldset>
+      </form>
+
+    </div>
+  </section>
+  </section>
+
+  <footer>
+    <button id="scrollTopBtn" title="Go to top">Top</button>
+    <p>Umar Adam, Copyright &copy; 2017</p>
+  </footer>
+  <script src="js/topScroll.js"></script>
+</body>
+
 </html>
