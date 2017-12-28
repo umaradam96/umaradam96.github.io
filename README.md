@@ -29,6 +29,21 @@ The website has three different themes to it depending on the screen size. For e
 
 # **Development process**
 
+### **Plans**
+#### First Draft
+- [Mobile](documents/first_draft_mobile.jpg)
+- [Desktop](documents/first_draft_desktop.jpg)
+
+#### Final plans
+- [Mobile Index](documents/mobileindex.png)
+- [Mobile About](documents/mobileabout.png)
+- [Mobile Gallery](documents/mobilegallery.png)
+- [Mobile Contact](documents/mobilecontact.png)
+- [Desktop Index](documents/desktopindex.png)
+- [Desktop About](documents/desktopabout.png)
+- [Desktop Gallery](documents/desktopgallery.png)
+- [Desktop Contact](documents/desktopcontact.png)
+
 ### **Software used**
 - notepad++
 - Atom
