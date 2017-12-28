@@ -1,11 +1,12 @@
+/* MOBILE */
+
 body{
   font: 15px/1.5 Arial, Helvetica,sans-serif;
   padding:0;
   margin:0;
-  background-color:#739b2e;
+  background-color:#ffbf80;
 }
 
-/* Global */
 .container{
   width:80%;
   margin:auto;
@@ -17,27 +18,18 @@ ul{
   padding:0;
 }
 
-.button_1{
-  height:38px;
-  background:#e8491d;
-  border:0;
-  padding-left: 20px;
-  padding-right:20px;
-  color:#ffffff;
-}
-
 .dark{
   padding:15px;
-  background:#2a3a19;
+  background:#b35900;
   color:#ffffff;
   margin-top:10px;
   margin-bottom:10px;
 }
 
-/* Header **/
+/* Header */
 header{
   padding-bottom:20px;
-  background:#2a3a19;
+  background:#b35900;
   color:#ffffff;
   min-height:70px;
   border-bottom: #d35400 3px solid;
@@ -70,7 +62,7 @@ header nav{
 }
 
 header .highlight, header .current a{
-  color:green;
+  color:#663300;
   font-weight:bold;
 }
 
@@ -85,7 +77,6 @@ video{
 /* area1 */
 #area1{
   min-height:400px;
-  background:url('../videos/bgvid.mp4') no-repeat 0 -400px;
   text-align:center;
   color:#ffffff;
 }
@@ -105,7 +96,7 @@ video{
 #middleBox{
   padding:15px;
   color:#ffffff;
-  background:#2a3a19;
+  background:#b35900;
 }
 
 #middleBox h1{
@@ -119,16 +110,6 @@ video{
   text-align:center;
   width:100%;
 }
-/*#middleBox form {
-  float:right;
-  margin-top:15px;
-}
-
-#middleBox input[type="email"]{
-  padding:4px;
-  height:25px;
-  width:250px;
-}*/
 
 /* Boxes */
 #boxes{
@@ -180,24 +161,11 @@ aside#sidebar .quote input, aside#sidebar .quote textarea{
   padding:5px;
 }
 
-/* Main-col */
-article#main-col{
+/* Main-col for about us page where accordian is placed in*/
+#main-col{
   float:none;
   text-align:center;
   width:100%;
-}
-
-/* Services */
-ul #services{
-  width: 80%;
-  justify-content: center;
-}
-ul#services li{
-  list-style: none;
-  padding:20px;
-  border: #cccccc solid 1px;
-  margin-bottom:5px;
-  background:#e6e6e6;
 }
 
 #map{
@@ -206,7 +174,7 @@ ul#services li{
   background-color: grey;
 }
 
-/**** CONTACT FORM ****/
+/* CONTACT FORM */
 
 #contact input[type="text"],
 #contact input[type="email"],
@@ -218,7 +186,7 @@ ul#services li{
 }
 
 #contact {
-  background:#2a3a19;
+  background:#b35900;
   padding:50px;
   margin:50px 0;
 }
@@ -238,7 +206,7 @@ ul#services li{
 }
 
 fieldset {
-  border: medium none !important;
+  border: medium;
   margin: 0 10px 10px 0;
   min-width: 100%;
   padding: 0;
@@ -268,7 +236,7 @@ fieldset {
   cursor:pointer;
   width:100%;
   border:none;
-  background: #6eb700;
+  background:#663300;
   color:white;
   margin:0 0 5px;
   padding:10px;
@@ -276,7 +244,7 @@ fieldset {
 }
 
 #contact button[type="submit"]:hover {
-  background: #99e825;
+  background: #994d00;
   transition:background-color 0.3s ease-in-out;
 }
 
@@ -292,7 +260,7 @@ fieldset {
 /** WIKIPEDIA SEARCH **/
 
 #searchForm{
-  background-color: darkgreen;
+  background-color: #e67300;
   border-radius: 5px;
   padding: 3% 5%;
   margin-top: 2%;
@@ -318,11 +286,13 @@ fieldset {
 }
 
 #wikiSubmit,
-#wikiReset,
-#reloadPage{
+#wikiReset{
   width: 40%;
 }
 
+#reloadPage{
+  width: 100%;
+}
 
 /*** MODAL SECTIONS ****/
 
@@ -403,20 +373,23 @@ fieldset {
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
-  width: 60%;
+  width: 85%;
   height: auto;
 }
 
-#myImg:hover {
+.galImg:hover {
   opacity: 0.7;
 }
-
-/* The Modal (background) */
 
 .galleryBox{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.page-title{
+	text-align: center;
+	font-size: 25px;
 }
 
 #myImg:hover {
@@ -596,7 +569,7 @@ footer{
   padding:20px;
   margin-top:20px;
   color:#ffffff;
-  background-color: #2a3a19;
+  background:#b35900;
   text-align: center;
   bottom: 0px;
   position: static;
@@ -612,49 +585,52 @@ footer{
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
-  background-color: red; /* Set a background color */
+  background-color: red;
   color: white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 15px; /* Some padding */
+  padding: 15px;
   border-radius: 10px; /* Rounded corners */
 }
 
 #scrollTopBtn:hover {
-  background-color: green; /* Add a dark-grey background on hover */
+  background-color: #b36b00;
 }
-
 
 /* Media Queries */
 
-/*  #newsletter button, .quote button{
-    display:block;
-    width:100%;
-  }
-
-  #newsletter form input[type="email"], .quote input, .quote textarea{
-    width:100%;
-    margin-bottom:5px;
-  }
-}
-*/
-
+/* Tablet */
 @media only screen and (min-width: 480px){
+
+body{
+  background-color:#b3e0ff;
+}
+
+.dark{
+  background:#004d80;
+}
+
+header{
+  background:#004d80;
+  padding-top:30px;
+}
+
+
+header .highlight, header .current a{
+  color: #007acc;
+}
+
 header nav{
   float:initial;
   margin-top:10px;
 }
 
 header nav li{
-  float:center;
   display:inline;
   padding: 0 10px 0 10px;
 }
 
 #area1 h1{
-  margin-top:40px;
-  margin-top:100px;
   font-size:40px;
-  margin-bottom:10px;
 }
 
 #area1 p{
@@ -677,85 +653,80 @@ video {
   filter: grayscale(100%);
 }
 
+#middleBox{
+  background:#004d80;
+}
+
 #middleBox h1{
   margin-top: 30px;
-  text-align: center;
   font-size: 20px;
 }
 
 #middleBox p{
   margin-top:30px;
-  float: center;
-  text-align: center;
-}
-/*  #middleBox form,*/
-
-modalGal-content{
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
-
 }
 
-
-article#main-col{
+#main-col{
   float:left;
-  width:60%;
+  width:100%;
 }
 
-aside#sidebar{
-  float:right;
-  text-align:center;
-  width:30%;
+#contact {
+  background:#004d80;
 }
 
-header{
-  padding-bottom:20px;
-  background:#2a3a19;
-  color:#ffffff;
-  padding-top:30px;
-  min-height:70px;
-  border-bottom: #d35400 3px solid;
+#contact button[type="submit"] {
+  background: #4db8ff;
 }
 
-#area1 h1{
-  margin-top:40px;
+#contact button[type="submit"]:hover {
+  background: #b3e0ff;
+}
+
+#searchForm{
+  background-color: #007acc;
+}
+
+button.accordian{
+	width:100%
 }
 
 .galImg {
-  width: 40%;
-  height: auto;
+  width: 45%;
+}
+
+#scrollTopBtn:hover {
+  background-color: #4db8ff;
+}
+
+footer{
+  background:#004d80;
 }
 }
+
+/* DESKTOP */
 
 @media only screen and (min-width: 768px){
 
+body{
+  background-color:#739b2e;
+}
+
+.dark{
+  background:#2a3a19;
+}
+
+header{
+  background:#2a3a19;
+}
+
+header .highlight, header .current a{
+  color: green;
+}
+
 header #header-title{
   float:left;
-}
-
-#area1 h1{
-  margin-top:40px;
-  margin-top:100px;
-  font-size:55px;
-  margin-bottom:10px;
-}
-
-#area1 p{
-  font-size:20px;
-}
-
-#boxes .box{
-  float:left;
-  width: 30%;
+  background:#2a3a19;
 }
 
 header nav{
@@ -763,42 +734,68 @@ header nav{
   margin-top:10px;
 }
 
+#area1 h1{
+  font-size:55px;
+}
+
+#area1 p{
+  font-size:20px;
+}
+
+#middleBox{
+  background:#2a3a19;
+}
+
+#contact {
+  background:#2a3a19;
+}
+
+#contact button[type="submit"] {
+  background: #6eb700;
+}
+
+#contact button[type="submit"]:hover {
+  background: #99e825;
+}
+
+
+#main-col{
+  float:left;
+  width:60%;
+}
+
+#boxes .box{
+  float:left;
+  width: 30%;
+}
+
 video {
   filter: none;
 }
 
+aside#sidebar{
+  text-align:center;
+  width:30%;
+}
+
+#searchForm{
+  background-color: darkgreen;
+}
+
 .galImg {
   width: 30%;
-  height: auto;
+}
+
+#scrollTopBtn:hover {
+  background-color: green;
 }
 
 .sitemapBox{
 	display: inline;
 	width: 20%;
-
 }
 
-/*header #header-title,
-  header nav,
-  header nav li,
-  #middleBox h1,
-  #middleBox p,
-  #middleBox form,
-  modalGal-content,
-  #boxes .box,
-  article#main-col,
-  aside#sidebar{
-    float:none;
-    text-align:center;
-    width:100%;
-  }
-
-  header{
-    padding-bottom:20px;
-  }
-
-  #area1 h1{
-    margin-top:40px;
-  }*/
+footer{
+  background:#2a3a19;
 }
 }
