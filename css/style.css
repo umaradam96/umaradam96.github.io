@@ -1,4 +1,4 @@
-/* MOBILE */
+/* MOBILE FIRST*/
 
 body {
   font: 15px/1.5 Arial, Helvetica, sans-serif;
@@ -70,6 +70,8 @@ header .highlight, header .current a {
 header a:hover {
   color: #d35400;
 }
+
+/*removes video from mobile view*/
 
 video {
   display: none;
@@ -705,9 +707,7 @@ footer {
   .galImg {
     width: 45%;
   }
-
   /** scroll top **/
-
   #scrollTopBtn {
     display: none;
     /* Hidden by default */
@@ -732,11 +732,9 @@ footer {
     /* Rounded corners */
     border-radius: 10px;
   }
-  
   #scrollTopBtn:hover {
     background-color: #4db8ff;
   }
-
   footer {
     background: #004d80;
   }
