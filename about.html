@@ -8,7 +8,6 @@
   <title>South Luangwa National Park | About</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="./css/style.css">
-
 </head>
 
 <body>
@@ -20,6 +19,7 @@
       <nav>
         <ul>
           <li><a href="index.html">Home</a></li>
+          <!--highlights current page-->
           <li class="current"><a href="about.html">About</a></li>
           <li><a href="gallery.html">Gallery</a></li>
           <li><a href="contact.html">Contact</a></li>
@@ -35,6 +35,7 @@
     </section>
   </section>
 
+  <!-- Accordian with information and map-->
   <section id="main">
     <section class="container">
       <article id="main-col">
@@ -79,6 +80,7 @@
               <h2 id="wikiResults">Wikipedia Search Results:</h2>
               <!--Search results displayed here-->
               <ul id="demo"></ul>
+              <!--This reloads/refreshes the page-->
               <button id="reloadPage">Reload</button>
               <!--This script file contains Wikipedia API-->
             </section>
@@ -88,10 +90,12 @@
     </section>
   </section>
 
+  <!--button to scrol to the top-->
   <button id="scrollTopBtn" title="Go to top">Top</button>
 
   <footer>
     <p>Umar Adam, Copyright &copy; 2017</p>
+    <!--Socials-->
     <section>
       <a target="_blank" href="https://en-gb.facebook.com/" class="fa fa-facebook"></a>
       <a target="_blank" href="https://github.com/umaradam96" class="fa fa-github"></a>
@@ -100,6 +104,7 @@
       <a target="_blank" href="https://uk.linkedin.com/" class="fa fa-linkedin"></a>
       <a target="_blank" href="https://www.youtube.com/" class="fa fa-youtube"></a>
     </section>
+    <!--Sitemap-->
     <h3>Sitemap</h3>
     <section class="sitemapBox">
       <a class="sitemap" href="index.html">Home</a>
@@ -108,12 +113,14 @@
       <a class="sitemap" href="contact.html">Contact</a>
     </section>
   </footer>
+
+  <!-- Scripts used for this page-->
   <script src="js/wiki.js"></script>
   <script src="js/accordian.js"></script>
   <script src="js/map.js"></script>
   <script src="js/reload.js"></script>
   <script src="js/topScroll.js"></script>
-
+  <!--script for google map-->
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBrwP22VNQ8JLJI6ITdGe9BpiHetGHI8j8&callback=initMap">
   </script>
 

@@ -84,7 +84,7 @@ Having created a single style sheet which contained all styles, without any of t
 
 # **JavaScript**
 
-Many features on the site are in use with JavaScript. The following javascript files were used:
+Many features on the site are in use with JavaScript. The following JavaScript files were used:
 
 - [accordian.js](js/accordian.js)
 - [gal.js](js/gal.js)
@@ -109,14 +109,14 @@ Wikipedia search       | Pass      | Information should appear when user searche
 
 Each HTML and CSS file had been tested in the validator. the Following table shows the results:
 
-Validate              | Passed/Failed |
------------|
-Index (HTML)|Passed
-About (HTML)|Passed
-Gallery (HTML)|Passed
-Contact (HTML)|Passed
-CSS|Passed
-JavaScript (No errors in console)|Passed
+Validate                          | Passed/Failed
+--------------------------------- | -------------
+Index (HTML)                      | Passed
+About (HTML)                      | Passed
+Gallery (HTML)                    | Passed
+Contact (HTML)                    | Passed
+CSS                               | Passed
+JavaScript (No errors in console) | Passed
 
 # **References**
 
